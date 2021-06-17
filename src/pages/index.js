@@ -54,21 +54,21 @@ const IndexPage = () => {
           <Route exact path="/" >
             <LoginPage />
           </Route>
-          <Route exact path="/forget/components">
+          <Route exact path="/forget">
             <ForgetPassword />
           </Route>
-          <Route exact path="/signup/components">
+          <Route exact path="/signup">
             <SignupPage />
           </Route>
           <Router>
             <Switch>
-              <Route exact path="/signupinfo/components">
+              <Route exact path="/signupinfo">
                 <SignupInfo />
               </Route>
-              <Route exact path="/login/components">
+              <Route exact path="/login">
                 <LoginPage />
               </Route>
-              <Route exact path="/linechart/components">
+              <Route exact path="/linechart">
                 <LineChart />
               </Route>
             </Switch>
@@ -76,14 +76,14 @@ const IndexPage = () => {
           <Router>
             <Navbar />
             <Switch>
-              <Route path='/linechart/components'>
+              <Route path='/linechart'>
                 <div className="col-md-8 offset-md-2 ">
                   <div className="chart">
                     <LineChart />
                   </div>
                 </div>
               </Route>
-              <Route path="/posts/components">
+              <Route path="/posts">
                 <Posts posts={currentPosts} loading={loading} /><br />
                 <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} Paginate={paginate} />
               </Route>
@@ -93,10 +93,10 @@ const IndexPage = () => {
           </Router>
         </Switch>
       </Router >
-      <div className="App">
+      {/* <div className="App">
         <h2>Todo App</h2>
         <TodoContainer />
-      </div>
+      </div> */}
     </div>
 
   )
