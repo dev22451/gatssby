@@ -1,0 +1,348 @@
+/* $font-size:15px; */
+/* $margin:15px; */
+
+
+body{
+  /* background-image: url('/src/Images/images.png'); */
+  overflow-x: hidden;
+  background-size: cover;
+  background-position: fixed;
+  background-color:  #F5F6FA !important;
+}
+
+
+.B {
+  background-color: bisque;
+}
+
+
+.form-control:focus {
+  border-color: #1C67D8 !important;
+  box-shadow: 0 0 5px rgb(51, 62, 170) !important;
+}
+
+.head-div{
+ margin-top: 35px;
+ margin-left: 30px !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.main-img{
+  margin-left: 105px!important;
+}
+
+.head{
+  margin: left 15px;; 
+}
+
+.features{
+  margin-left: 25px;
+}
+
+.features-head{
+  margin-left: 15px;
+}
+
+.headfirst{
+    font-size: 30px;
+}
+
+.headsecond{
+  font-size: 25px;
+}
+
+.features-heading{
+  font-size:16px;
+}
+
+.features-details{
+  font-size: 12px;
+}
+
+.contact .contact-span{
+  font-size: 20px;
+}
+
+/* form css */
+
+.signupform{
+  margin-top: 40px;
+  background:#fff;
+  padding: 30px;
+}
+
+.terms{
+  font-size: 11px;
+  color: #181818;
+  margin: 10px 0px;
+}
+
+.label-form{
+  font-size: 13px;
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+}
+
+.checkboxinput{
+  margin-left: 10px;  
+}
+
+/* LoginPage.js css */
+
+.main-container{
+  height: 86vh;
+}
+
+.first-containers{
+  min-height: 86vh ;
+  background-color: lightcoral;
+}
+
+.first-containers, .second-containers{
+  padding: 20px !important;
+  text-align: center;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.services .icon{
+  font-size: 30px;
+}
+ 
+.services .service-content{
+  margin-left: 10px;
+} 
+
+.main{
+  background-color: lightgreen !important;
+}
+
+/* signuppage css */
+
+.signuppage{
+    margin-left: 30px;
+}
+
+/* Slider CSS */
+
+.slider img{
+  width: 80% !important;
+}
+
+
+.slick-dots.slick-thumb {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slick-dots .slick-thumb li {
+  width: 6px;
+  height: 6px;
+  margin: 0 3px;
+  border-radius: 999px;
+  transition: all 0.5s ease-in-out;
+  will-change: width;
+  background-color: black;
+}
+
+.slick-dots .slick-thum li.slick-active {
+  background-color: #FDE135;
+  width: 24px;
+}
+
+
+.arrow {
+  position: absolute;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nextArrow {
+  top: 140px;
+  right: -20px;
+}
+
+.prevArrow {
+  top: 140px;
+  left: -20px;
+}
+
+/* loginform */
+
+.link-size{
+  font-size: 14px;
+}
+
+.link-right{
+  float: right;
+}
+
+hr.new1 {
+ border-top: 1px solid rgb(224, 209, 209);
+}
+
+.try-btn{
+  font-size: 14px;
+}
+
+
+/* steps css */
+
+.steps ol{
+  font-size: 1.7rem;
+  font-weight: lighter;
+  list-style-type: none;
+  color: #fff;
+}
+
+.steps ol li{
+  margin-bottom: 22px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.checkmark{
+  color: #0d47a1;
+  margin-top: 7px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.stepshead{
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 28px;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* table css*/
+.table-responsive{
+  max-height:500px;
+  overflow-y:hidden;
+
+}
+  .table-responsive:hover{
+overflow-y: visible;
+}
+
+/* width*/
+.table-responsive::-webkit-scrollbar {
+width: 10px;
+} 
+
+/* Track */
+.table-responsive::-webkit-scrollbar-track {
+border-radius: 10px;
+} 
+
+/* Handle */
+.table-responsive::-webkit-scrollbar-thumb { 
+ background: #888;  
+ border-radius: 10px; 
+ } 
+ /* Handle on hover */
+ .table-responsive::-webkit-scrollbar-thumb:hover { 
+  background: #555;  
+  }  
+
+ /* Heading */
+ .heading{
+color: red;
+font-size: 25px;
+margin-left:200px ;
+justify-content: center;
+ }
+
+
+
+ /* chart css */
+ .chart{
+   width: 850px;
+ }
+ /* lable styles */
+
+#date_label {
+  margin-top: 20px;
+  display: block;
+  color: rgba(0, 0, 0, 0.58);
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+body.highcontrast #date_label {
+  color: white;
+}
+
+ /* navbar css */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.home,
+.chart,
+.products {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+
+/* todolist */
+h2{
+  text-align: center;
+  color:burlywood;
+}
+
+.todolist{
+ margin-top: 5px;
+  border:1px solid black;
+  background-color: burlywood;
+
+}
+.main input{
+width:99%;
+height:20px;
+margin-bottom: 5px;
+
+}
+.main button{
+  width:50px;
+  height: 25px;
+  font-weight: bold;
+}
+/* .todocontainer{
+  border: 1px solid black;
+} */
+
+.todolist span{
+  margin-right: 5px;
+  float:right;
+  margin-top:2px;
+}
+.App{
+  margin: 0% 30% 0% 30%;
+  background-color: cadetblue;
+  padding: 10px 5px 10px 5px;
+}
