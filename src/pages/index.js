@@ -48,7 +48,7 @@ const IndexPage = () => {
 
   return (
     <div>
-      {/* <Router>
+      <Router>
         <Link to="/"></Link>
         <Switch>
           <Route exact path="/" >
@@ -86,13 +86,13 @@ const IndexPage = () => {
               <Route path="/posts/components">
                 <Posts posts={currentPosts} loading={loading} /><br />
                 <Pagination postsPerPage={postsPerPage} totalPosts={posts.length} Paginate={paginate} />
-              </Route> */}
-      {/* <Route path='/calender' exact component={posts} /> */}
-      {/* <Route path='/products' component={ForgetPassword} />
+              </Route>
+              {/* <Route path='/calender' exact component={posts} /> */}
+              <Route path='/products' component={ForgetPassword} />
             </Switch>
           </Router>
         </Switch>
-      </Router > */}
+      </Router >
       <div className="App">
         <h2>Todo App</h2>
         <TodoContainer />
